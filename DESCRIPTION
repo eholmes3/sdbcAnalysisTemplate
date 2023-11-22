@@ -1,12 +1,11 @@
 Package: sdbcAnalysisTemplate
-Title: What the Package Does (One Line, Title Case)
+Title: Rmd Template for Statistical Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Emma", "Braun", , "emma.braun@hsc.utah.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Stores custom formatting and html structure that I use a lot when doing exploratory analysis in R.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
