@@ -1,6 +1,6 @@
 ---
 title: "[Project ID] Analysis"
-author: "Your Name"
+author: "Emma Braun"
 date: "`r format(Sys.time(), '%m %d %Y')`"
 output: 
   html_document:
