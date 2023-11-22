@@ -1,0 +1,31 @@
+---
+title: "[Project ID] Analysis"
+author: "Your Name"
+date: "`r format(Sys.time(), '%m %d %Y')`"
+output: 
+  html_document:
+    toc: yes
+    toc_float: 
+      collapse: no
+      depth: 6
+    toc_smooth_scroll: no
+    theme: journal
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(gtsummary)
+library(readxl)
+reset_gtsummary_theme()
+theme_gtsummary_compact(font_size = 12)
+```
+
+# Load Data
+
+```{r}
+
+```
+
